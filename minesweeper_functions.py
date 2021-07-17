@@ -8,7 +8,6 @@ import time
 
 def test_settings(rows, mines):
     # Error handling function for conflicting inputs
-    
     try:
         rows = int(rows)
     except ValueError:
